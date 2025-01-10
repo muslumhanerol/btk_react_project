@@ -10,11 +10,38 @@
 // toplam
 // 5
 
-//#######################################################################################################
+//######################################################################################################
 
 // if
 
 var egitmen = "müslüm erol"
 if (egitmen == "müslüm erol") {
     alert("Eğitmen " + "Adı: " + egitmen)
-} 
+}
+
+//######################################################################################################
+
+// if else 
+// else= şart geçerli olmağıgında çalışacak blok
+
+var egitmen = "müslüm erol"
+if (egitmen == "müslüm erol") {
+    alert("Eğitmen " + "Adı: " + egitmen)
+}
+
+
+var egitmen = "müslüm erol"
+if (egitmen == "müslüm erol") {
+    alert("Eğitmen " + "Adı: " + egitmen)
+} else {
+    alert("Eğitmen tanınmıyor.")
+}
+undefined
+
+
+var egitmen = "müslüm erol"
+if (egitmen == "müslüm erol müs") {
+    alert("Eğitmen " + "Adı: " + egitmen)
+} else {
+    alert("Eğitmen tanınmıyor.")
+}
