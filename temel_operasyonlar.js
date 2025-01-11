@@ -49,3 +49,12 @@ if (egitmen == "müslüm erol müs") {
 //######################################################################################################
 
 //Birden fazla şart varsa?
+
+var name = "müslüm"
+if (name == "müslüm") {
+    alert("İsiim =" + name);
+} else if (name == "erol") {
+    alert("isim= " + name);
+} else {
+    alert("tanınmayan kullanıcı")
+}
