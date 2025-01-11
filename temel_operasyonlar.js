@@ -58,3 +58,23 @@ if (name == "müslüm") {
 } else {
     alert("tanınmayan kullanıcı")
 }
+
+//######################################################################################################
+
+// || veya lı yazım = ikisinden birinin gerçekleşmesi yeterli.
+
+var isim = "erol"
+if (isim == "erol" || isim == "yasin")
+    alert("kullanıcılar geldi");
+else {
+    alert("Tanınmayan Kullanıcı")
+}
+
+//######################################################################################################
+// && = her isi şartta gerçekleşmeli.
+
+var ad = "müslüm"
+var soyad = "erol"
+if (ad == "müslüm" && soyad == "erol") {
+    alert(ad + " " + soyad);
+}
