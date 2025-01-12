@@ -30,3 +30,24 @@ sehirler.push("Bursa")
 sehirler
     (3)['İstanbul', 'İzmir', 'Bursa']
 
+//#################################################################################################
+
+// concat = Başka bir dizi ile birleştirir.
+
+sehirler.concat(["Van", "Muş"])
+    (5)['İstanbul', 'İzmir', 'Bursa', 'Van', 'Muş']
+
+//#################################################################################################
+
+// sort = diziyi yazdırır.
+
+sehirler.sort()
+    (3)['Bursa', 'İstanbul', 'İzmir']
+
+
+//#################################################################################################
+
+// length = dizinin uzunluğunu gösterir.
+
+sehirler.length
+3
