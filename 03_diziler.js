@@ -26,3 +26,20 @@ dizi[2]
 false
 
 //######################################################################################################
+
+
+var fonksiyonDizisi = [function selamVer() {
+    console.log("Birinci fonksiyon çalıştı.")
+}, function selamVer2() {
+    console.log("İkinci fonksiyon çalıştı.")
+}]
+undefined
+fonksiyonDizisi
+    (2)[ƒ, ƒ]0: ƒ selamVer()1: ƒ selamVer2()length: 2[[Prototype]]: Array(0)
+fonksiyonDizisi[1]
+ƒ selamVer2(){
+    console.log("İkinci fonksiyon çalıştı.")
+}
+
+fonksiyonDizisi[0]()
+ Birinci fonksiyon çalıştı.
