@@ -9,7 +9,18 @@
 // console.log(9);
 // console.log(10);
 
+//-------------------------------------------------------------------------------------------
 
-for (i = 1; i <= 10; i++) {
-    console.log(1)
+//for (başlangıç= i = 1; şart= i <= 10; her bitimde 1 artır=  i++)
+// for (i = 1; i <= 10; i++) {
+//     console.log(i)
+// }
+// console.log("Bitti")
+
+//-------------------------------------------------------------------------------------------
+
+var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
+
+for (i = 0; i < sehirler.length; i++) {
+    console.log(sehirler[i])
 }
