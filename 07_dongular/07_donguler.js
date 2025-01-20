@@ -10,6 +10,7 @@
 // console.log(10);
 
 //-------------------------------------------------------------------------------------------
+//FOR DONGÜSÜ
 
 //for (başlangıç= i = 1; şart= i <= 10; her bitimde 1 artır=  i++)
 // for (i = 1; i <= 10; i++) {
@@ -23,4 +24,14 @@ var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
 
 for (i = 0; i < sehirler.length; i++) {
     console.log(sehirler[i])
+}
+
+//-------------------------------------------------------------------------------------------
+//wHILE DONGUSU =şart sağlandığı sürece
+
+var i = 1;
+
+while (i <= 10) {
+    console.log(i);
+    i++;
 }
