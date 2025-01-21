@@ -26,12 +26,13 @@ for (i = 0; i < sehirler.length; i++) {
     console.log(sehirler[i])
 }
 
+
 //-------------------------------------------------------------------------------------------
 //wHILE DONGUSU =şart sağlandığı sürece
 
-var i = 1;
+// var i = 1;
 
-while (i <= 10) {
-    console.log(i);
-    i++;
-}
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
