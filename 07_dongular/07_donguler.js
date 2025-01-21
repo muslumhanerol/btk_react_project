@@ -20,15 +20,24 @@
 
 //-------------------------------------------------------------------------------------------
 
-var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
+// var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
 
-for (i = 0; i < sehirler.length; i++) {
-    console.log(sehirler[i])
-}
-
+// for (i = 0; i < sehirler.length; i++) {
+//     console.log(sehirler[i])
+// }
 
 //-------------------------------------------------------------------------------------------
-//wHILE DONGUSU =şart sağlandığı sürece
+//FOREACH = Dizi temelli verileri tek tek dolaşmaya yarar. Herbir elemanı gezerken ona isim veriir.
+// sehir= herbiri tek tek gezilecek, o anki şehire sehir diyoruz. Ankaradayken sehir=Ankara, İstanbuldayken sehir=istanbul
+
+var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
+
+sehirler.forEach(function (sehir) {
+    console.log(sehir)
+})
+
+//-------------------------------------------------------------------------------------------
+//wHILE DONGUSU = şart sağlandığı sürece
 
 // var i = 1;
 
@@ -36,3 +45,19 @@ for (i = 0; i < sehirler.length; i++) {
 //     console.log(i);
 //     i++;
 // }
+
+//-------------------------------------------------------------------------------------------
+//DO WHILE DONGUSU =
+
+// var i = 1;
+
+// do {
+//     console.log(i);
+//     i++;
+
+// } while (i <= 10);
+//-------------------------------------------------------------------------------------------
+
+
+
+
