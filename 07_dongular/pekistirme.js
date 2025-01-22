@@ -16,7 +16,7 @@ var sifre = prompt("sifre?")
 
 function kullaniciVarmi(email, sifre) {
     for (i = 0; i < kullanicilar.length; i++) {
-        if (kullanicilar[i].email == email && kullanicilar.sifre == sifre) {
+        if (kullanicilar[i].email == email && kullanicilar[i].sifre == sifre) {
             return true;
         }
     }

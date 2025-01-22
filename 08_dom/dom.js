@@ -1,0 +1,1 @@
+document.getElementById("bio").innerHTML = "Deneme : 1 2 3"
