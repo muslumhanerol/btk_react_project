@@ -30,11 +30,11 @@
 //FOREACH = Dizi temelli verileri tek tek dolaşmaya yarar. Herbir elemanı gezerken ona isim veriir.
 // sehir= herbiri tek tek gezilecek, o anki şehire sehir diyoruz. Ankaradayken sehir=Ankara, İstanbuldayken sehir=istanbul
 
-var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
+// var sehirler = ["Ankara", "İstanbul", "İzmir", "Gaziantep"]
 
-sehirler.forEach(function (sehir) {
-    console.log(sehir)
-})
+// sehirler.forEach(function (sehir) {
+//     console.log(sehir)
+// })
 
 //-------------------------------------------------------------------------------------------
 //wHILE DONGUSU = şart sağlandığı sürece
@@ -57,7 +57,6 @@ sehirler.forEach(function (sehir) {
 
 // } while (i <= 10);
 //-------------------------------------------------------------------------------------------
-
 
 
 

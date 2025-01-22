@@ -32,3 +32,4 @@ function giris() {
 }
 
 giris(email.sifre)
+
