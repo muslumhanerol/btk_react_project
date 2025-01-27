@@ -1,6 +1,24 @@
-var intro1 = document.getElementById("intro1")
+//id üzerinden erişim.
 
-var mesaj = document.getElementById("mesaj")
+// var intro1 = document.getElementById("intro1")
+// var mesaj = document.getElementById("mesaj")
+
+// mesaj.innerHTML = intro1.innerHTML; //intro1 idli içeriği mesaj idli içeriğe yazdırdık.
+
+//-----------------------------------------------------------------------------------------------
+
+//tagname üzerinden erişim.
+
+// var tumListeler = document.getElementsByTagName("ul");
+// var sehirler = tumListeler[0]
+
+// tumElemanlar = sehirler.getElementsByTagName("li");
+
+// for (i = 0; i < tumElemanlar.length; i++) {
+//     alert(tumElemanlar[i].innerHTML);
+// }
+
+//-----------------------------------------------------------------------------------------------
 
 
-mesaj.innerHTML = intro1.innerHTML;
+
