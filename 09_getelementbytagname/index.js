@@ -46,6 +46,7 @@
 //addeventlistener
 
 var muslum = document.getElementById("muslum").addEventListener("click", rengiDegistir);
+// var muslum = document.getElementById("muslum").addEventListener("mouseover", rengiDegistir); //mouse üzerine geldiğinde
 
 function rengiDegistir() {
     document.getElementById("div1").style.color = "red";
