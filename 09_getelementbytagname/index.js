@@ -30,11 +30,28 @@
 
 //querySelector
 
-var queryElemanlari = document.querySelectorAll("p.intro1") //p taginden intro1 clası olanları döndürür.
+// var queryElemanlari = document.querySelectorAll("p.intro1") //p taginden intro1 clası olanları döndürür.
 
-alert(queryElemanlari.length)
+// alert(queryElemanlari.length)
 
 //-----------------------------------------------------------------------------------------------
+
+// getElementsByName
+
+// var isimElemanlari = document.getElementsByName("musteriAdi")
+// alert(isimElemanlari[0].value);
+
+//-----------------------------------------------------------------------------------------------
+
+//addeventlistener
+
+var muslum = document.getElementById("muslum").addEventListener("click", rengiDegistir);
+
+function rengiDegistir() {
+    document.getElementById("div1").style.color = "red";
+    var isimElemanlari = document.getElementsByName("musteriAdi");
+    isimElemanlari[0].value = "Derin"
+}
 
 
 
