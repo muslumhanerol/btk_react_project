@@ -20,5 +20,23 @@
 
 //-----------------------------------------------------------------------------------------------
 
+//getElementsByClassName
+
+// var classElemanlari = document.getElementsByClassName("intro1");
+
+// alert(classElemanlari[1].innerHTML);
+
+//-----------------------------------------------------------------------------------------------
+
+//querySelector
+
+var queryElemanlari = document.querySelectorAll("p.intro1") //p taginden intro1 clası olanları döndürür.
+
+alert(queryElemanlari.length)
+
+//-----------------------------------------------------------------------------------------------
+
+
+
 
 
