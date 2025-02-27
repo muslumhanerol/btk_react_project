@@ -59,7 +59,7 @@ const sehirler = ["Ankara", "İstanbul"]
 sehirler.push("İzmir"); //Diziye yeni eleman eklemede sorun yaşamayız. Dizinin adresi aynı old sorun yok.
 
 
-sehirler = ["Bursa", "Mardin"] //Buna izin vermez. Yeni adresleme yapıldığından olmaz.
+//sehirler = ["Bursa", "Mardin"] //Buna izin vermez. Yeni adresleme yapıldığından olmaz.
 
 
 
