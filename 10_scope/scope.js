@@ -30,8 +30,40 @@ function mesajVer() {
 //console.log(isim); buradan func içi değişkene erişemeyiz func içi çağırabiliriz.
 
 
-for (let i = 1; i < 10; i++) {
+//########################################################################
+//var ile tanımladık = dışarıdan çağırdık, sonuç olarak doğrudan 10 u verir.
 
-}
+// for (var i = 1; i < 10; i++) {
 
-console.log(i);
+// }
+// console.log(i);
+
+
+//let ile tanımladık = dışarıdan çağrılmaz 1 den 9 a kadar yazar.
+
+// for (let i = 1; i < 10; i++) {
+//     console.log(i);
+// }
+
+
+//########################################################################
+
+// const = sabit anlamına gelir. Değişmeyecek veriler için kullanılır.
+
+const soyad = "Erol";
+
+//soyad = "Han"; //soyadı değiştirmek istersek yapamayız çünkü üstte const olarak tanımladık.
+
+
+const sehirler = ["Ankara", "İstanbul"]
+sehirler.push("İzmir"); //Diziye yeni eleman eklemede sorun yaşamayız. Dizinin adresi aynı old sorun yok.
+
+
+sehirler = ["Bursa", "Mardin"] //Buna izin vermez. Yeni adresleme yapıldığından olmaz.
+
+
+
+
+console.log(soyad);
+console.log(sehirler);
+
