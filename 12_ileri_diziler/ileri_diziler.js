@@ -28,7 +28,12 @@
 
 //#################################################################################
 
-//map fonksiyonu
+//map fonksiyonu. Tek bir satırda yazılmalı aksi halde undefined hatası alırsın.
 
 
+const dizi = [1, 2, 3, 4]
+
+const mapDizi = dizi.map(sayi => sayi * 3)
+
+console.log(mapDizi);
 
