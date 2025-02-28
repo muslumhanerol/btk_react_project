@@ -61,7 +61,7 @@
 // reduce fonksiyonu. sum denilen kümülatif toplama işlemi gerçekleşir.
 const dizi = [1, 2, 3, 4]
 
-const toplam = dizi.reduce((acc, sayi) => { //acc varsayılan değeri 0 dır toplama sıfırdan bailar.
+const toplam = dizi.reduce((acc, sayi) => { //acc varsayılan değeri 0 dır toplama sıfırdan başlar.
     return acc + sayi;
 })
 
