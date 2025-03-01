@@ -10,7 +10,7 @@ class Personel {
     }
 
     kaydet() {
-        console.log("Personel kaydedildi." + this.ad);
+        console.log(`Personel kaydedildi : ${this.ad}`);
     }
 }
 
