@@ -59,16 +59,24 @@
 //#################################################################################
 
 // reduce fonksiyonu. sum denilen kümülatif toplama işlemi gerçekleşir.
-const dizi = [1, 2, 3, 4]
+// const dizi = [1, 2, 3, 4]
 
-const toplam = dizi.reduce((acc, sayi) => { //acc varsayılan değeri 0 dır toplama sıfırdan başlar.
-    return acc + sayi;
-})
+// const toplam = dizi.reduce((acc, sayi) => { //acc varsayılan değeri 0 dır toplama sıfırdan başlar.
+//     return acc + sayi;
+// })
 
-const toplam2 = dizi.reduce((acc, sayi) => { //acc başlanğıç değerini 10 dan başlattık.
-    return acc + sayi;
-}, 10)
+// const toplam2 = dizi.reduce((acc, sayi) => { //acc başlanğıç değerini 10 dan başlattık.
+//     return acc + sayi;
+// }, 10)
 
-console.log(toplam2);
+// console.log(toplam2);
+
+const dizi = [1, 2, 3, 4, 5]
+
+const mapDizi = dizi.map(sayi => sayi);
+console.log(mapDizi);
+
+const filterDizi = dizi.filter(sayi => sayi > 2);
+console.log(filterDizi);
 
 

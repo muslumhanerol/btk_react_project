@@ -1,0 +1,2 @@
+// Sürdürülebilir yazılımlar geliştirmek için.
+
