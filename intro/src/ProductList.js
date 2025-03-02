@@ -5,7 +5,7 @@ export default class ProductList extends Component {
     render() {
         return (
             <div>
-                <h3>{this.props.title}</h3> {/* this = Compoent */}
+                <h3>{this.props.info.title}</h3>
             </div>
         )
     }

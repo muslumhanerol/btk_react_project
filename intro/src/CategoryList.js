@@ -3,10 +3,12 @@ import { ListGroup, ListGroupItem } from 'reactstrap'
 
 export default class CategoryList extends Component {
 
+
+
     render() {
         return (
             <div>
-                <h3>{this.props.title}</h3> {/* this.props.title = App.js den <CategoryList title="Category List" olarak gönderdik burda çağırdık. /> */}
+                <h3>{this.props.info.title}</h3> {/* this.props.title = App.js den info={categoryInfo} olarak gönderdik burda çağırdık. /> */}
                 <ListGroup>
                     <ListGroupItem>Cras justo odio</ListGroupItem>
                     <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
