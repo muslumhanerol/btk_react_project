@@ -2,13 +2,25 @@ import React from 'react';
 import Navi from './Navi';
 import CategoryList from './CategoryList';
 import ProductList from './ProductList';
+import { Col, Container, Row } from 'reactstrap';
 
 function App() {
   return (
     <div>
-      <Navi />
-      <CategoryList />
-      <ProductList />
+      <Container>
+        <Row>
+          <Navi />
+        </Row>
+        <Row>
+          <Col xs="3">
+            {/* CategoryList.js den title ile çağrılacak. */}
+            <CategoryList title="Category List" />
+          </Col>
+          <Col xs="9">
+            <ProductList title="Product List" />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

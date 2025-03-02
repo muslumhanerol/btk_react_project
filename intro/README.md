@@ -11,6 +11,7 @@ In the project directory, you can run:
 
 For ReactStrap
 # npm install reactstrap
+# npm install bootstrap
 
 
 
