@@ -9,7 +9,6 @@ function App() {
   let categoryInfo = { title: "Category List" }
   let productInfo = { title: "Product List" }
 
-  //state = bir componentin datasıdır.
 
   return (
     <div>
